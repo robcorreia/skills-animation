@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins; 
+}
+
+body {
+    background: #000000;
+}
+
+li {
+    list-style: none;
+}
+
+.skills {
+    margin: 10%;
+    max-width: 500px;
+    width: 100%;
+    margin: 60px auto;
+    color: #ffffff;
+}
+
+.skills h3 {
+    font-weight: 300;
+}
+
+.skills h2::after {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    content: '';
+    border-bottom: 1px solid #BEBEBE;
+}
+
+.skills li {
+    margin: 20px 0;
+}
+
+.bar {
+    background: #BEBEBE;
+    height: 2px;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 3px rgb(83, 75, 75);
+}
+
+.bar span {
+    height: 2px;
+    float: left;
+    background: #7FFFD4;
+}
+
+.html {
+   width: 90%;
+   animation: html 1s;
+}
+
+.css {
+    width: 70%;
+    animation: css 1s; 
+ }
+
+ .javascript {
+    width: 30%;
+    animation: javascript 1s; 
+ }
+
+ .wordpress {
+    width: 60%;
+    animation: wordpress 1s; 
+ }
+
+ @keyframes html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+ }
+
+ @keyframes css {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+ }
+
+ @keyframes javascript {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+ }
+
+ @keyframes wordpress {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+ }
